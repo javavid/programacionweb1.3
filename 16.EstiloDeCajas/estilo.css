@@ -1,0 +1,44 @@
+.uno{
+    background: green; /*creamos un rectangulo verde de 400 PX por 200PX*/
+    width: 400px;
+    height: 200px;
+
+    padding-top: 20px;/*agregamos en la parte superior de titulo un espacio de 20PX*/
+    padding-right: 20px;/*agregamos en la parte derecha un espacio de 20PX*/
+    padding-bottom: 20px;/*agregamos en la parte de abajo un espacio de 20PX*/
+    padding-left: 20px;/*agregamos en la parte izquierda un espacio de 20PX*/
+
+    border: 10px solid black/*agregamos un borde al conetenedor*/
+}
+
+.dos{
+    background: red; /*creamos un rectangulo verde de 400 PX por 200PX*/
+    width: 200px;
+    height: 100px;
+    padding: 20px 20px 20px 20px;/*agregamos de la forma abreviada un espacio de 20PX en todos los lados*/
+    border: 10px solid yellow/*agregamos un borde al conetenedor*/
+}
+
+p{
+  color: red;  
+  padding: 20px;
+  background-color: yellow;  
+  background-image: url(Estrella.png); /*Agregamos una imagen al fondo del parrafo.*/
+
+}
+
+.tres{
+    background: red; /*creamos un rectangulo verde de 400 PX por 200PX*/
+    width: 200px;
+    height: 100px;
+    padding: 20px 20px 20px 20px;/*agregamos de la forma abreviada un espacio de 20PX en todos los lados*/
+   
+    border: 10px solid yellow;/*agregamos un borde al conetenedor*/
+    margin: 20px auto;/*Centrar el contenedor*/
+
+    border-style: double;/*ponemos doble linea al borde*/
+    border-style: dashed;/*ponemos linea entre cortada al borde*/
+    border-style: dotted;/*ponemos borde con circulos al contenedor*/
+    border-radius: 50% 50% 50% 50%; /*redondeamos el borde*/
+    border-radius: 10% 20% 30% 40%; /*redondeamos el borde con diferentes tamaños*/
+}

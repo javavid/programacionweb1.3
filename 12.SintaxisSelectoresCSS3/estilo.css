@@ -1,0 +1,30 @@
+/*Estilo con Sintaxis y Selectores*/   
+    
+    h1{color: blue;}
+    p{ font-size: 20px;}
+   
+    /*Con esta linea damos estilo a una linea usando clases*/
+    .parrafo_uno{ font-style: italic; color: blue;}
+    
+    /*Con esta linea damos estilo con ID*/
+    #final{ font-size: 15px; color: red;}
+
+    /*Con esta linea damos estilo universal por el asterisco*/
+    *{background: rgba(255,0,0,.25);}
+
+    /*Con esta linea damos estilo a la seleccion p*/
+    section p {
+        color: green;}
+    
+    /*Con esta linea damos estilo a la seleccion y a sus hijos de tipo p
+    section > p {
+        color: green;}*/
+    
+    /*Con esta linea damos estilo al hermano directo a la derecha de un elemento
+    h2 + p {
+        color: green;}*/
+    
+    /*Con esta linea damos estilo al hermano directo a la derecha de un elemento
+    h2 ~ p {
+        color: green;}*/    
+

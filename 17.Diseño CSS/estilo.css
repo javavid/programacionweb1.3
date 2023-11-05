@@ -1,0 +1,40 @@
+body{
+    /*esta es el formtato estandar de una pagian web para que se ajuste al dispositivo*/
+   width: 90%;
+   max-width: 900px;
+   margin: 0 auto;
+}
+
+.box{
+  border: 2px solid rgb(79,185,227);
+  border-radius: 5px;/*el borde redondeado*/
+  width: 200px;
+  height: 120;
+  float: left;/*Imagen a la izquierda*/
+  margin-right: 15px; /*despegamos un poco el texto de la imagen*/
+}
+.imagen{
+ 
+    width: 200px;
+    height: 120;
+  }
+
+p{
+    line-height: 1.5; /*Interlineado*/
+    text-align: justify; /*Justificado*/
+}
+
+.columnas{
+    column-width: 400px; /*creamos 2 columnas de 400PX porque mi pagian es maximo de 900px*/
+}
+
+.flotante{
+   background: rgba(255,0,0,0.5);
+   padding: 10px;
+   border-radius: 5px;
+   position: fixed;/*Este nos da un posisionamiento flotante que se mueve por toda la pagina*/
+   position: absolute;/*Este nos da un posisionamiento absoluto y se queda en la unicacion fija*/
+   position: relative;/*Este abarca toda la pagina web y se queda en la posicion inicial*/
+}
+
+

@@ -1,0 +1,38 @@
+li{
+    /*font-weight: bold;/*Negrita*/
+    line-height: 1.5;/*Interlineado*/
+}
+
+ol{
+    /*list-style-type: none;/*Quita los numeros*/
+    /*list-style-type: circle;/*Seria remplazar los numeros por circulo*/
+    /*list-style-type: disc;/*Seria remplazar los numeros por circulo relleno*/
+    list-style-type: upper-roman;/*Seria remplazar los numeros por numeros romanos ,mayusculas*/
+    /*list-style-type: lower-roman;/*Seria remplazar los numeros por numeros romanos ,mayusculas*/
+    list-style-position: inside;/*los numeros romanos se alinean a la derecha*/
+    /*creamos un archivo .png con cualquier forma y lo guardamos en el ruta del proyecto y con esta linea usamos esa imagen para la lista*/
+    list-style-image: url("flecha.png");
+}
+
+
+a{
+    text-decoration: none;/*quitamos la linea de subrayado*/
+}
+/*trabajaremos con las pseudo-clases ver diapositivas*/
+a:link{
+    color: #088A08;
+}
+a:visited{
+    color: #0000FF;
+}
+a:focus{
+    border-bottom: 1px solid;/*este es para poner un subrayado solido de 1 pixel*/
+    background: #088A08;
+}
+a:hover{
+    border-bottom: 1px solid;/*este es para poner un subrayado solido de 1 pixel*/
+    background: #FF0000;
+}
+a:active{
+    color: black;
+}

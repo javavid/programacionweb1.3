@@ -1,0 +1,35 @@
+h1{
+    color: blue;
+    text-align: center;/*alineamos el titulo al centro*/
+}
+
+p{
+    color: green;
+    font-family: Arial;
+}
+
+/*con este estilo defonimos el tipo de letra y el sistema busca primero "Comic Sans MS" si no tiene esa fuente busca "prototype" y por ultimo busca "Arial" y si no tiuene ninguna de las altes mencionadas busca la fuente por defecto*/
+#segundo_parrafo{
+    font-family: "Comic Sans MS", prototype, Arial;
+    text-align: justify;
+}
+
+/*con este estilo defonimos el tipo de letra y el sistema busca primero "Comic Sans MS" si no tiene esa fuente busca "prototype" y por ultimo busca "Arial" y si no tiuene ninguna de las altes mencionadas busca la fuente por defecto*/
+#tercer_parrafo{
+    font-style: italic;
+    font-weight: bold;/*"bold" se usa para poner en negrita*/ 
+    text-transform: uppercase; /*"uppercase" para transformar el texto en mayusculas si queremos en minuscula "lowercase", si queremos que la primera letra en mayuscula de todas las palabras "capitalize"*/
+    text-decoration: underline; /*se usa para subrayar el texto, si queremos poner una linea sobre el texto usamos "overline" y si queremos tachar el texto usamos "line-through"*/
+}
+
+#cuarto_parrafo{
+color: black;
+text-shadow: 3px 3px 3px red; /*con esta linea damos sombra al texto y la propiedades son alto, ancho, desenfoque y color*/
+font-style: italic;
+font-weight: bold;
+text-transform: capitalize;/*la primera letra de todas las palabras sea mayuscula "capitalize"*/
+text-decoration: line-through;/*texto tachado*/
+line-height: 2;/* se pone un espacio entre las lineas*/
+letter-spacing: 2px; /*ponemos un espacio entre letras*/
+word-spacing: 8px; /*ponemos un espacio entre las palabras*/
+}
